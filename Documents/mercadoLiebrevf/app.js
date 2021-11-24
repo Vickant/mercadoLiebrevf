@@ -1,9 +1,9 @@
 const express = require ('express');
 const app = express();
 
-app.listen( process.env.PORT || 3030, () => {
+app.listen( process.env.PORT || 3000, () => {
 
-    console.log('Servidor corriendo OK');
+    console.log('Servidor corriendo en el puerto 3000');
 }
 
 );
